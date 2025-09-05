@@ -1,5 +1,7 @@
 <?php
-require 'vendor/autoload.php';
+require 'lib/PHPMailer/src/Exception.php';
+require 'lib/PHPMailer/src/PHPMailer.php';
+require 'lib/PHPMailer/src/SMTP.php';
 require_once 'config/db.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
